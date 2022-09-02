@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		8DBA688128C25988007E0CC1 /* HFacebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA688028C25988007E0CC1 /* HFacebookApp.swift */; };
-		8DBA688328C25988007E0CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA688228C25988007E0CC1 /* ContentView.swift */; };
 		8DBA688528C25989007E0CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA688428C25989007E0CC1 /* Assets.xcassets */; };
 		8DBA688828C25989007E0CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA688728C25989007E0CC1 /* Preview Assets.xcassets */; };
 		8DBA688A28C25989007E0CC1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA688928C25989007E0CC1 /* Persistence.swift */; };
 		8DBA688D28C25989007E0CC1 /* HFacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA688B28C25989007E0CC1 /* HFacebook.xcdatamodeld */; };
+		8DBA689728C268CE007E0CC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA689628C268CE007E0CC1 /* Extensions.swift */; };
+		8DBA689928C2698F007E0CC1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA689828C2698F007E0CC1 /* HomeScreen.swift */; };
+		8DBA689C28C26C59007E0CC1 /* ProfileFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA689B28C26C59007E0CC1 /* ProfileFragments.swift */; };
+		8DBA689E28C27150007E0CC1 /* RoomFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA689D28C27150007E0CC1 /* RoomFragments.swift */; };
+		8DBA68A028C271EB007E0CC1 /* RoomItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA689F28C271EB007E0CC1 /* RoomItems.swift */; };
+		8DBA68A228C2774E007E0CC1 /* LineFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68A128C2774E007E0CC1 /* LineFragments.swift */; };
+		8DBA68A428C2779F007E0CC1 /* StoryFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68A328C2779F007E0CC1 /* StoryFragments.swift */; };
+		8DBA68A628C2783E007E0CC1 /* StoryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68A528C2783E007E0CC1 /* StoryItems.swift */; };
+		8DBA68A828C27D90007E0CC1 /* AddStoryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68A728C27D90007E0CC1 /* AddStoryItems.swift */; };
+		8DBA68AA28C2812D007E0CC1 /* PostFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68A928C2812D007E0CC1 /* PostFragments.swift */; };
+		8DBA68AC28C2816F007E0CC1 /* PostItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68AB28C2816F007E0CC1 /* PostItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DBA687D28C25988007E0CC1 /* HFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBA688028C25988007E0CC1 /* HFacebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFacebookApp.swift; sourceTree = "<group>"; };
-		8DBA688228C25988007E0CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DBA688428C25989007E0CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DBA688728C25989007E0CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DBA688928C25989007E0CC1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8DBA688C28C25989007E0CC1 /* HFacebook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HFacebook.xcdatamodel; sourceTree = "<group>"; };
+		8DBA689628C268CE007E0CC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8DBA689828C2698F007E0CC1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8DBA689B28C26C59007E0CC1 /* ProfileFragments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFragments.swift; sourceTree = "<group>"; };
+		8DBA689D28C27150007E0CC1 /* RoomFragments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomFragments.swift; sourceTree = "<group>"; };
+		8DBA689F28C271EB007E0CC1 /* RoomItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItems.swift; sourceTree = "<group>"; };
+		8DBA68A128C2774E007E0CC1 /* LineFragments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFragments.swift; sourceTree = "<group>"; };
+		8DBA68A328C2779F007E0CC1 /* StoryFragments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFragments.swift; sourceTree = "<group>"; };
+		8DBA68A528C2783E007E0CC1 /* StoryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItems.swift; sourceTree = "<group>"; };
+		8DBA68A728C27D90007E0CC1 /* AddStoryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoryItems.swift; sourceTree = "<group>"; };
+		8DBA68A928C2812D007E0CC1 /* PostFragments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFragments.swift; sourceTree = "<group>"; };
+		8DBA68AB28C2816F007E0CC1 /* PostItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +75,11 @@
 		8DBA687F28C25988007E0CC1 /* HFacebook */ = {
 			isa = PBXGroup;
 			children = (
+				8DBA689528C268BA007E0CC1 /* utils */,
+				8DBA689428C268B0007E0CC1 /* cells */,
+				8DBA689A28C269B7007E0CC1 /* fragments */,
+				8DBA689328C268A1007E0CC1 /* Screens */,
 				8DBA688028C25988007E0CC1 /* HFacebookApp.swift */,
-				8DBA688228C25988007E0CC1 /* ContentView.swift */,
 				8DBA688428C25989007E0CC1 /* Assets.xcassets */,
 				8DBA688928C25989007E0CC1 /* Persistence.swift */,
 				8DBA688B28C25989007E0CC1 /* HFacebook.xcdatamodeld */,
@@ -71,6 +94,45 @@
 				8DBA688728C25989007E0CC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DBA689328C268A1007E0CC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA689828C2698F007E0CC1 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DBA689428C268B0007E0CC1 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA689F28C271EB007E0CC1 /* RoomItems.swift */,
+				8DBA68A528C2783E007E0CC1 /* StoryItems.swift */,
+				8DBA68A728C27D90007E0CC1 /* AddStoryItems.swift */,
+				8DBA68AB28C2816F007E0CC1 /* PostItems.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		8DBA689528C268BA007E0CC1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA689628C268CE007E0CC1 /* Extensions.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		8DBA689A28C269B7007E0CC1 /* fragments */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA689B28C26C59007E0CC1 /* ProfileFragments.swift */,
+				8DBA689D28C27150007E0CC1 /* RoomFragments.swift */,
+				8DBA68A128C2774E007E0CC1 /* LineFragments.swift */,
+				8DBA68A328C2779F007E0CC1 /* StoryFragments.swift */,
+				8DBA68A928C2812D007E0CC1 /* PostFragments.swift */,
+			);
+			path = fragments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBA689728C268CE007E0CC1 /* Extensions.swift in Sources */,
+				8DBA68A628C2783E007E0CC1 /* StoryItems.swift in Sources */,
+				8DBA68AC28C2816F007E0CC1 /* PostItems.swift in Sources */,
+				8DBA68A028C271EB007E0CC1 /* RoomItems.swift in Sources */,
 				8DBA688D28C25989007E0CC1 /* HFacebook.xcdatamodeld in Sources */,
+				8DBA689928C2698F007E0CC1 /* HomeScreen.swift in Sources */,
+				8DBA68AA28C2812D007E0CC1 /* PostFragments.swift in Sources */,
 				8DBA688A28C25989007E0CC1 /* Persistence.swift in Sources */,
-				8DBA688328C25988007E0CC1 /* ContentView.swift in Sources */,
+				8DBA68A828C27D90007E0CC1 /* AddStoryItems.swift in Sources */,
+				8DBA68A428C2779F007E0CC1 /* StoryFragments.swift in Sources */,
 				8DBA688128C25988007E0CC1 /* HFacebookApp.swift in Sources */,
+				8DBA68A228C2774E007E0CC1 /* LineFragments.swift in Sources */,
+				8DBA689E28C27150007E0CC1 /* RoomFragments.swift in Sources */,
+				8DBA689C28C26C59007E0CC1 /* ProfileFragments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
